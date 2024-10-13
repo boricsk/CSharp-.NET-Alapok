@@ -1,0 +1,16 @@
+*.zip
+*.mp4
+*.env
+*.csv
+*.exe
+*.dll
+*.pdb
+*.vsidx
+*.cache
+*.bin
+bin/
+obj/
+.vs/
+Debug/
+net8.0/
+BpMap/
