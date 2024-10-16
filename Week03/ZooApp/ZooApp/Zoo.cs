@@ -8,7 +8,7 @@ namespace ZooApp
 {
     internal class Zoo
     {
-        //Kívülről nem állítható a name, csak a konstruktor tud értéket adni
+        //Kívülről nem állítható a name, csak a konstruktor tud értéket adni //
         public string Name { get; }
         public List<Animal> animals { get; }
 
