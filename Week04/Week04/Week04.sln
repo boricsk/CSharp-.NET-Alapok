@@ -9,7 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructEx", "StructEx\Struct
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StructEx2", "StructEx2\StructEx2.csproj", "{81492CE8-CE60-48F0-B7EE-7CBE140C1231}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumConvOp", "EnumConvOp\EnumConvOp.csproj", "{B1486A42-518D-413C-999B-2663FB78B55A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnumConvOp", "EnumConvOp\EnumConvOp.csproj", "{B1486A42-518D-413C-999B-2663FB78B55A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Containers", "Containers\Containers.csproj", "{A9A92B10-74FE-4604-9068-A6BD13F415F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scrable", "Scrable\Scrable.csproj", "{37FCBC3C-F531-4812-94AE-F244768D73F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{B1486A42-518D-413C-999B-2663FB78B55A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1486A42-518D-413C-999B-2663FB78B55A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1486A42-518D-413C-999B-2663FB78B55A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9A92B10-74FE-4604-9068-A6BD13F415F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9A92B10-74FE-4604-9068-A6BD13F415F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9A92B10-74FE-4604-9068-A6BD13F415F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9A92B10-74FE-4604-9068-A6BD13F415F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37FCBC3C-F531-4812-94AE-F244768D73F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37FCBC3C-F531-4812-94AE-F244768D73F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37FCBC3C-F531-4812-94AE-F244768D73F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37FCBC3C-F531-4812-94AE-F244768D73F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
