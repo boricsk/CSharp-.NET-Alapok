@@ -30,5 +30,15 @@ namespace AdvBook
             }
             return ret; 
         }
+        public static string GetChoice()
+        {
+            string? ret = null;
+            Console.WriteLine("Kérem válasszon :");
+            while (string.IsNullOrWhiteSpace(ret))
+            {
+                ret = Console.ReadLine();
+            }
+            return ret;
+        }
     }
 }

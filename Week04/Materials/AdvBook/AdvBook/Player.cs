@@ -8,16 +8,18 @@ using static System.Formats.Asn1.AsnWriter;
 
 namespace AdvBook
 {
-    internal class Player
+    public class Player
     {
         public string Name { get; }
         public int Health { get; set; } = 100;
         public int Score { get; set; } = 0;
-        public Dictionary<string, bool> capabilities { get; set; }
-        public Dictionary<string, string> tools { get; set; }
+        public List<string> capabilities { get; set; }
+        public List<string> tools { get; set; }
         public Player(string name)
         {
             Name = name;
+            capabilities = new List<string>();
+            tools = new List<string>();
         }
         public bool Fight()
         {
@@ -30,9 +32,9 @@ namespace AdvBook
             Health -= 10;
             return ret;
         }
-        public void AddTool(string ToolId, string ToolName)
+        public void AddTool(string ToolName)
         {
-            tools.Add(ToolId, ToolName);
+            tools.Add(ToolName);
         }
         public void Learn(string CapId)
         {
@@ -42,7 +44,8 @@ namespace AdvBook
             }
             else
             {
-                capabilities.Add(CapId, true);
+                Progress.PrintProgress($"{CapId} tanulása...");
+                capabilities.Add(CapId);
                 Health -= 10;
                 Score += 5;
             }

@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace AdvBook
 {
-    internal class Possibility
+    public class Possibility
     {
-        public int Id { get; }
+        public string Id { get; }
         public string Title { get; }
         public string Text { get; }
-        public List<int> NextPos { get; }
-        public Possibility(int id, string title, string text, List<int> nextPos)
+        public List<string> NextPos { get; }
+        public Possibility(string id, string title, string text, List<string> nextPos)
         {
             Id = id;
             Title = title;
