@@ -32,9 +32,10 @@ namespace AdvBook
                 PrintSences.PrintSence(currentChoice, ThePlayer, StoryTitle);
                 if (currentChoice.NextPos.Count > 0 && ThePlayer.Health > 0)
                 {
+                    Possibility? possibility;
                     foreach (string id in currentChoice.NextPos)
                     {
-                        Possibility? possibility = GetChoice(id);
+                        possibility = GetChoice(id);
                         Console.WriteLine($"{id} : {possibility?.Title ?? "Helytelen"}");
                     }
                     string StoryId;
